@@ -44,6 +44,6 @@
 
 <img align="left" alt="Shaxadhere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
 
-[website]: https://shaxad.com
+[website]: https://shaxad.netlify.app/
 [twitter]: https://twitter.com/Shexadd
 [instagram]: https://instagram.com/Shexadd
