@@ -1,4 +1,4 @@
-### Hi there, I'm Shehzad Ahmed - [website] 👋
+### Hi there, I'm [Shehzad Ahmed][website] 👋
 
 ## I'm a Android Developer, Web Application Developer, and Entrepreneur!
 - 🔭 I’m currently working on Flutter Projects!
