@@ -41,16 +41,17 @@
 <br />
 <br />
 
+### Buy Me a Coffee:
+
+[<img align="left" alt="Shexadd | Instagram" width="22px" src="https://images.squarespace-cdn.com/content/v1/5a82ee54edaed8f0ec09744c/1522231628780-BEUWURTD30OFMINF49YP/ke17ZwdGBToddI8pDm48kKlH-NBjyuLJ1B_ReXkMz_BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxtQJUiLl07rAb8zcklGpnQMyLAUGvLtyKFay5Ob7sqf0od4CxKOAy9FxLHTjBN_Oo/image-asset.jpeg" />][coffee]
+
+<br />
+<br />
+
 ---
 
 <img align="left" alt="Shaxadhere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
 
-<br />
-<br />
-
-### Buy Me a Coffee:
-
-[<img align="left" alt="Shexadd | Instagram" width="22px" src="https://images.squarespace-cdn.com/content/v1/5a82ee54edaed8f0ec09744c/1522231628780-BEUWURTD30OFMINF49YP/ke17ZwdGBToddI8pDm48kKlH-NBjyuLJ1B_ReXkMz_BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxtQJUiLl07rAb8zcklGpnQMyLAUGvLtyKFay5Ob7sqf0od4CxKOAy9FxLHTjBN_Oo/image-asset.jpeg" />][coffee]
 
 [website]: https://shaxad.netlify.app/
 [twitter]: https://twitter.com/Shexadd
