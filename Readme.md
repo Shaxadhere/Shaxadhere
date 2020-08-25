@@ -39,7 +39,7 @@
 
 <br />
 <br />
-<!--START_SECTION:activity-->
+<!--START_SECTION:waka-->
 
 ### Buy Me a Coffee:
 
