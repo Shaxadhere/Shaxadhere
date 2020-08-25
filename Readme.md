@@ -1,6 +1,6 @@
-### Hi there, I'm [Shehzad Ahmed][website] 👋
+## Hi there, I'm [Shehzad Ahmed][website] 👋
 
-## I'm a Android Developer, Web Application Developer, and Entrepreneur!
+### I'm a Android Developer, Web Application Developer, and Entrepreneur!
 - 🔭 I’m currently working on Flutter Projects!
 - 🌱 I’m currently learning Flutter, Android, iOS
 - 👯 I’m looking to collaborate with other developers to create awesome projects
