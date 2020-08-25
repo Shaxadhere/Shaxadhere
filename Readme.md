@@ -39,6 +39,7 @@
 
 <br />
 <br />
+<!--START_SECTION:activity-->
 
 ### Buy Me a Coffee:
 
