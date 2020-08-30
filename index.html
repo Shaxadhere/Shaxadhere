@@ -440,6 +440,15 @@ var d = new Date();
   var bday = new Date("2000-11-01");
   var age = dateDiff(bday, today);
   document.getElementById("age").innerHTML = age;
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/shexad.netlify.app/visits");
+  xhr.responseType = "json";
+  xhr.onload = function() {
+    alert(this.response.value); 
+  }
+  xhr.send();
+
 </script>
 </body>
 
