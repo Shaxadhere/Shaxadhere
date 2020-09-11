@@ -41,14 +41,10 @@
 <br />
 <br />
 <!--START_SECTION:waka-->
-
-<br />
-<br />
-
 ---
 
 
-<img aligh="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere"/>
+<img aligh="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere" />
 
 <img align="right" alt="Shaxadhere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
 
