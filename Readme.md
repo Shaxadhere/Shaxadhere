@@ -50,11 +50,6 @@
 
 <img aligh="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere"/>
 
-<br />
-<br />
-
----
-
 <img align="right" alt="Shaxadhere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
 
 <br />
