@@ -51,13 +51,15 @@
 
 ---
 
-<img align="left" alt="Shaxadhere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere"/>
 
 <br />
 <br />
 
 ---
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere"/>
+
+<img align="left" alt="Shaxadhere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
 
 
 [website]: https://shaxad.netlify.app/
