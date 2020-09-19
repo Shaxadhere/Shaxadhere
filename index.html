@@ -236,8 +236,21 @@
         <h2 id="portfolio_header" class="section__title">My projects_</h2>
       </div>
     </div>
+    <div class="row portfolio-menu">
+      <div class="col-md-12">
+        <nav>
+          <ul>
+            <li><a href="" data-portfolio-target-tag="all">all</a></li>
+            <li><a href="" data-portfolio-target-tag="apis">api(s)</a></li>
+            <li><a href="" data-portfolio-target-tag="websites">websites</a></li>
+            <li><a href="" data-portfolio-target-tag="libs">open source libraries</a></li>
+            <li><a href="" data-portfolio-target-tag="apps">mobile apps</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <div class="portfolio-cards">
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="websites">
         <div class="col-md-6 col-lg-5 project-card__img" style="border-style: double;">
           <img class="" src="assets/img/gtc.png" alt="project-img">
         </div>
@@ -260,7 +273,7 @@
     </div>
 
     <div class="portfolio-cards">
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal1" data-portfolio-tag="web-sites">
+      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal1" data-portfolio-tag="libs">
         <div class="col-md-6 col-lg-5 project-card__img" style="border-style: double;">
           <img class="" src="assets/img/rapid.png" alt="project-img">
         </div>
@@ -274,6 +287,67 @@
             <li>PHP</li>
           </ul>
           <a href="javascript:void(0);" class="project-card__link">github.com/Shaxadhere/phprapid</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-cards">
+      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal2" data-portfolio-tag="apps">
+        <div class="col-md-6 col-lg-5 project-card__img" style="border-style: double;">
+          <img class="" src="assets/img/iptracker.png" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+          <h3 class="project-card__title">IP Tracker - A simple iphone app to track ip addresses</h3>
+          <p class="project-card__description">
+            an ios app built with swift, tracks down ip addresses with single tap
+          </p>
+          <p class="project-card__stack">Used stack:</p>
+          <ul class="tags">
+            <li>Swift</li>
+            <li>XCode</li>
+          </ul>
+          <a href="javascript:void(0);" class="project-card__link">github.com/Shaxadhere/IPTracker</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-cards">
+      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal3" data-portfolio-tag="apps">
+        <div class="col-md-6 col-lg-5 project-card__img" style="border-style: double;">
+          <img class="" src="assets/img/weatherapp.png" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+          <h3 class="project-card__title">Weather App - A simple iphone app to check live weather</h3>
+          <p class="project-card__description">
+            an ios app built with swift, to check live weather details
+          </p>
+          <p class="project-card__stack">Used stack:</p>
+          <ul class="tags">
+            <li>Swift</li>
+            <li>XCode</li>
+          </ul>
+          <a href="javascript:void(0);" class="project-card__link">github.com/Shaxadhere/WeatherApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-cards">
+      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal4" data-portfolio-tag="apis">
+        <div class="col-md-6 col-lg-5 project-card__img" style="border-style: double;">
+          <img class="" src="assets/img/lmsapi.png" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+          <h3 class="project-card__title">LMS API - Learning Management System API</h3>
+          <p class="project-card__description">
+            an api built with core php with use of <a href="https://github.com/Shaxadhere/phprapid">phprapid</a> to perform database operations
+             
+          </p>
+          <p class="project-card__stack">Used stack:</p>
+          <ul class="tags">
+            <li>Swift</li>
+            <li>XCode</li>
+          </ul>
+          <a href="javascript:void(0);" class="project-card__link">github.com/Shaxadhere/LMSAPI</a>
         </div>
       </div>
     </div>
@@ -293,7 +367,7 @@
           <div class="contacts__list">
             <dl class="contact-list">
               <dt>Phone:</dt>
-              <dd><a href="tel:923418085619">+92 341-8085-619</a><br><a href="tel:13654008480">+1 (365) 400-8480</a></dd>
+              <dd><a href="tel:923032804856">+92 303-2804-856</a><br><a href="tel:13654008480">+1 (365) 400-8480</a></dd>
               <dt>Whatsapp:</dt>
               <dd><a href="https://wa.me/13654008480" target="_blank">+1 (365) 400-8480</a></dd>
               <dt>Email:</dt>
@@ -359,15 +433,139 @@
       </div>
       <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
         <p class="portfolio-modal__title">PHP Rapid - A php functions library </p>
-        <center>
         <img class="portfolio-modal__img" src="assets/img/rapid_Original.jpg" alt="modal_img" width="80%">
-        </center>
         <p class="portfolio-modal__description">
           a php functions library that helps you to write code effieciently, it helps you perform database operations, validation,
            tracking user and some other cool stuff by just calling functions.
         </p>
         <div class="portfolio-modal__link">
           <a target="_blank" href="https://github.com/Shaxadhere/phprapid/">github.com/Shaxadhere/phprapid</a>
+        </div>
+        <div  class="portfolio-modal__stack">
+          <p class="portfolio-modal__stack-title">Using stack:</p>
+          <ul class="tags">
+            <li>PHP</li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal -->
+
+<!-- Portfolio Modal -->
+<div class="modal fade portfolio-modal" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
+        <p class="portfolio-modal__title">IP Tracker - A simple iphone app to track ip addresses</p>
+        <img class="portfolio-modal__img" src="assets/img/iptracker.png" alt="modal_img" width="80%">
+        <p class="portfolio-modal__description">
+          an ios app built with swift, tracks down ip addresses with single tap
+        </p>
+        <div class="portfolio-modal__link">
+          <a target="_blank" href="https://github.com/Shaxadhere/IPTracker/">github.com/Shaxadhere/IPTracker</a>
+        </div>
+        <div  class="portfolio-modal__stack">
+          <p class="portfolio-modal__stack-title">Using stack:</p>
+          <ul class="tags">
+            <li>Swift</li>
+            <li>XCode</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal -->
+
+<!-- Portfolio Modal -->
+<div class="modal fade portfolio-modal" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
+        <p class="portfolio-modal__title">Weather App - A simple iphone app to check live weather</p>
+        <img class="portfolio-modal__img" src="assets/img/weatherapp.png" alt="modal_img" width="80%">
+        <p class="portfolio-modal__description">
+          an ios app built with swift, to check live weather details
+        </p>
+        <div class="portfolio-modal__link">
+          <a target="_blank" href="https://github.com/Shaxadhere/WeatherApp/">github.com/Shaxadhere/WeatherApp</a>
+        </div>
+        <div  class="portfolio-modal__stack">
+          <p class="portfolio-modal__stack-title">Using stack:</p>
+          <ul class="tags">
+            <li>Swift</li>
+            <li>XCode</li>
+          </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal -->
+
+<!-- Portfolio Modal -->
+<div class="modal fade portfolio-modal" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
+        <p class="portfolio-modal__title">LMS API - Learning Management System API</p>
+        <img class="portfolio-modal__img" src="assets/img/lmsapi.png" alt="modal_img" width="80%">
+        <p class="portfolio-modal__description">
+          an api built with core php with use of <a href="https://github.com/Shaxadhere/phprapid">phprapid</a> to perform database operations
+        </p>
+        <div class="portfolio-modal__link">
+          <a target="_blank" href="https://github.com/Shaxadhere/LMSAPI/">github.com/Shaxadhere/LMSAPI</a>
+        </div>
+        <div  class="portfolio-modal__stack">
+          <p class="portfolio-modal__stack-title">Using stack:</p>
+          <ul class="tags">
+            <li>PHP</li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal -->
+
+<!-- Portfolio Modal -->
+<div class="modal fade portfolio-modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
+        <p class="portfolio-modal__title">PHP Rapid - A php functions library </p>
+        <img class="portfolio-modal__img" src="assets/img/lmsapi.png" alt="modal_img" width="80%">
+        <p class="portfolio-modal__description">
+          a php functions library that helps you to write code effieciently, it helps you perform database operations, validation,
+           tracking user and some other cool stuff by just calling functions.
+        </p>
+        <div class="portfolio-modal__link">
+          <a target="_blank" href="https://github.com/Shaxadhere/LMSAPI/">github.com/Shaxadhere/LMSAPI</a>
         </div>
         <div  class="portfolio-modal__stack">
           <p class="portfolio-modal__stack-title">Using stack:</p>
