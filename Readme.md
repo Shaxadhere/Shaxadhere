@@ -1,8 +1,8 @@
 ## Hi there, I'm [Shehzad Ahmed][website] 👋
 
-### I'm a Android Developer, Web Application Developer, and Entrepreneur!
-- 🔭 I’m currently working on Flutter Projects!
-- 🌱 I’m currently learning Flutter, Android, iOS
+### I'm a iOS Developer, Android Developer, Web Application Developer, and Entrepreneur!
+- 🔭 I’m currently working on iOS Projects!
+- 🌱 I’m currently learning iOS and Flutter
 - 👯 I’m looking to collaborate with other developers to create awesome projects
 - 🥅 2020 Goals: Make more awesome web and mobile apps
 
@@ -23,7 +23,6 @@
 <img align="left" alt="C#" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" />
 <img align="left" alt=".NET" width="26px" src="https://raw.githubusercontent.com/github/explore/93d8a67084f94b2a444e510199a6e7622e5b09a3/topics/dotnet/dotnet.png" />
 <img align="left" alt="JQuery" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" />
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
 <img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
 <img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
 <img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
