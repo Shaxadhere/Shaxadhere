@@ -43,9 +43,9 @@
 ---
 
 
-<img aligh="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere&layout=compact&hide=html" />
+<img aligh="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere&layout=compact&hide=html&hide=css" />
 
-<img align="" alt="Sefihere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
+<img align="" alt="Shaxadhere's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Shaxadhere&show_icons=true&hide_border=true" />
 
 <br />
 <br />
