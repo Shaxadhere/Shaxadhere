@@ -4,7 +4,7 @@
 - 🔭 I’m currently working on PHP Projects!
 - 🌱 I’m currently learning Laravel
 - 👯 I’m looking to collaborate with other developers to create awesome projects
-- 🥅 2020 Goals: Make more awesome web and mobile apps
+- 🥅 2021 Goals: Make more awesome web and mobile apps
 
 ### Connect with me:
 
