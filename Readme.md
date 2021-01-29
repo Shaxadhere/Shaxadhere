@@ -64,8 +64,7 @@
 
 
 
-[website]: https://sefihere.netlify.app/
-[twitter]: https://twitter.com/sefihere
-[instagram]: https://instagram.com/sefihere
-[coffee]: https://www.buymeacoffee.com/sefihere
-[facebook]: https://www.facebook.com/sefihere
+[website]: https://shaxad.netlify.app/
+[twitter]: https://twitter.com/shexaadd
+[instagram]: https://instagram.com/shexadd
+[coffee]: https://www.buymeacoffee.com/Shexadd
