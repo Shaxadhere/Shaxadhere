@@ -59,7 +59,7 @@
 
 ### Buy Me a Coffee:
 
-[<img align="left" width="130px" src="https://images.squarespace-cdn.com/content/v1/5a82ee54edaed8f0ec09744c/1522231628780-BEUWURTD30OFMINF49YP/ke17ZwdGBToddI8pDm48kKlH-NBjyuLJ1B_ReXkMz_BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxtQJUiLl07rAb8zcklGpnQMyLAUGvLtyKFay5Ob7sqf0od4CxKOAy9FxLHTjBN_Oo/image-asset.jpeg" />][coffee]
+[<img align="left" width="130px" src="https://github.com/egonelbre/gophers/blob/master/.thumb/animation/buy-morning-coffee-transparent.gif" />][coffee]
 
 
 
