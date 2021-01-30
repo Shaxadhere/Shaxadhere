@@ -1,6 +1,6 @@
 ## Hi there, I'm [Shehzad Ahmed][website] 👋
 
-### I'm a Web Application Developer, Flutter Developer and Entrepreneur!
+### I'm a Web Application Developer, MERN Stack Developer and Entrepreneur!
 - 🔭 I’m currently working on PHP Projects!
 - 🌱 I’m currently learning Laravel
 - 👯 I’m looking to collaborate with other developers to create awesome projects
