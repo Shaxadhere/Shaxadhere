@@ -1,4 +1,4 @@
-## Hi there, I'm [Shehzad Ahmed][website] 👋 ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
+## Hi there, I'm [Shehzad Ahmed][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
 
 ### I'm a Web Application Developer, MERN Stack Developer and Entrepreneur!
 - 🔭 I’m currently working on PHP Projects!
