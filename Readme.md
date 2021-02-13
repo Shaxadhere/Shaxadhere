@@ -7,7 +7,7 @@
 - 🥅 2021 Goals: Make more awesome web and mobile apps
 
 ### Connect with me:
-<a href="https://github.com/shaxadhere"><img src="https://img.shields.io/github/followers/alexrios.svg?label=GitHub&style=social" alt="GitHub"></a>
+<a href="https://github.com/shaxadhere"><img src="https://img.shields.io/github/followers/shaxadhere.svg?label=GitHub&style=social" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/shaxadhere/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 
 [<img align="left" alt="Shexadd | Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter]
