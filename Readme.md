@@ -6,6 +6,34 @@
 - 👯 I’m looking to collaborate with other developers to create awesome projects
 - 🥅 2021 Goals: Make more awesome web and mobile apps
 
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+
+```javascript
+const anmol = {
+    pronouns: "He" | "Him",
+    code: ["javascript", "php", "react js"],
+    askMeAbout: ["web dev", "tech", "app dev"],
+    technologies: {
+        mobileApp: ["iOS Apps"],
+        frontEnd: {
+            js: ["react", "jquery"],
+            css: ["material ui", "bootstrap"]
+        },
+        backEnd: {
+            js: ["node", "express"],
+            php: ["core"]
+        },
+        databases: ["mongo", "MySql", "mssql"],
+    },
+    architecture: ["Progressive web applications", "Single page applications"],
+    currentProject: "I am developing Learning Management System for ARTT CSS Academy",
+    funFact: "There are two ways to write error-free programs; only the third one works"
+};
+```
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+
+---
 ### Connect with me:
 <a href="https://github.com/shaxadhere"><img src="https://img.shields.io/github/followers/shaxadhere.svg?label=GitHub&style=social" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/shaxadhere/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
