@@ -11,7 +11,7 @@
 ```javascript
 const shehzad = {
     pronouns: "He" | "Him",
-    code: ["javascript", "php", "react js"],
+    code: ["javascript", "node js" "php", "react js"],
     askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
         mobileApp: ["iOS Apps"],
