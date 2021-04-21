@@ -4,7 +4,7 @@
 - 🔭 I’m currently working on PHP Projects!
 - 🌱 I’m currently learning MERN
 - 👯 I’m looking to collaborate with other developers to create awesome projects
-- 🥅 2021 Goals: Make more awesome web and mobile apps
+- 🥅 2021 Goals: Make more awesome web apps
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
