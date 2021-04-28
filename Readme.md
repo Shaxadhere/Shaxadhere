@@ -14,7 +14,6 @@ const shehzad = {
     code: ["javascript", "node js" "php", "react js"],
     askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
-        mobileApp: ["iOS Apps"],
         frontEnd: {
             js: ["react", "jquery"],
             css: ["material ui", "bootstrap"]
@@ -24,6 +23,7 @@ const shehzad = {
             php: ["core"]
         },
         databases: ["mongo", "MySql", "mssql"],
+        mobileApp: ["iOS Apps"],
     },
     architecture: ["Progressive web applications", "Single page applications"],
     currentProject: "I am developing Learning Management System for ARTT CSS Academy",
