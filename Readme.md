@@ -87,16 +87,11 @@ const shehzad = {
 
 
 <a href="https://github.com/AVS1508">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AVS1508&theme=buefy&show_icons=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AVS1508&theme=buefy&layout=compact" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shaxadhere&theme=buefy&show_icons=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact" />
 </a>
 
 <br/>
-<img aligh="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaxadhere&layout=compact&hide=html,css,AGS%20Script" />
-<img src="https://github-readme-stats.vercel.app/api?username=Shaxadhere&show_icons=true_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />
-<br />
-<br />
-
 ---
 
 ### Buy Me a Coffee:
