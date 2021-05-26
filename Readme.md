@@ -86,7 +86,7 @@ const shehzad = {
 ---
 
 
-<a href="https://github.com/AVS1508">
+<a href="https://github.com/Shaxadhere">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shaxadhere&theme=buefy&show_icons=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact" />
 </a>
