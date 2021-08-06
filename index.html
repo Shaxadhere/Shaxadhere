@@ -77,35 +77,34 @@
             <div class="container">
                 <div class="row personal-profile">
                     <div class="col-md-4 personal-profile__avatar">
-                        <img class="" src="assets/img/meh.jpg" alt="avatar">
+                        <img class="" src="" alt="avatar" id="avatar">
                     </div>
                     <div class="col-md-8">
-                        <p class="personal-profile__name">Shehzad Ahmed_</p>
-                        <p class="personal-profile__work">I'm a Web Application Developer, MERN Stack Developer and Entrepreneur!</p>
+                        <p class="personal-profile__name" id="name"></p>
+                        <p class="personal-profile__work" id="bio"></p>
                         <div class="personal-profile__contacts">
                             <dl class="contact-list contact-list__opacity-titles">
                                 <dt>Age:</dt>
                                 <dd id="age"></dd>
                                 <dt>Phone:</dt>
-                                <dd>
-                                    <a href="tel:923032804856">+92 303-2804-856</a><br><a href="tel:13654008480">+1 (365) 400-8480</a>
+                                <dd id="phones">
                                 </dd>
                                 <dt>Email:</dt>
                                 <dd>
-                                    <a href="mailto:shaxad.here@gmail.com">shaxad.here@gmail.com</a>
+                                    <a href="" id="email"></a>
                                 </dd>
                                 <dt>Address:</dt>
-                                <dd>Karachi, Pakistan</dd>
+                                <dd id="address">Karachi, Pakistan</dd>
                             </dl>
                         </div>
-                        <p class="personal-profile__social">
-                            <a href="https://github.com/Shaxadhere" target="_blank">
+                        <p class="personal-profile__social" id="links">
+                            <a href="" target="_blank" id="github-link">
                                 <i class="fa fa-github"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/shaxadhere/" target="_blank">
+                            <a href="" target="_blank" id="linkedin-link">
                                 <i class="fa fa-linkedin-square"></i>
                             </a>
-                            <a href="https://www.twitter.com/Shexadd" target="_blank">
+                            <a href="" target="_blank" id="twitter-link">
                                 <i class="fa fa-twitter-square"></i>
                             </a>
                         </p>
@@ -122,9 +121,9 @@
                     <h2 id="hello_header" class="section__title">Hi_</h2>
                     <p class="section__description">
                         I am a developer and i develop php and mern stack web applications, able to build any of these from the ground up - from concept, navigation,
-                                                                        and layout to programming and logic building. Skilled at writing well-designed and developed, testable and efficient code using
-                                                                        current best practices in Web Application Development. Fast learner, hard worker and team player who is proficient in
-                                                                        an array of scripting languages and multimedia Web tools.
+                                                                                                and layout to programming and logic building. Skilled at writing well-designed and developed, testable and efficient code using
+                                                                                                current best practices in Web Application Development. Fast learner, hard worker and team player who is proficient in
+                                                                                                an array of scripting languages and multimedia Web tools.
                     </p>
                     <a href="assets/Shehzad Ahmed.pdf" download="resume" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download CV</a>
                 </div>
@@ -396,7 +395,8 @@
         <script type="text/javascript">
 
             const me = {
-                name: "Shehzad Ahmed",
+                name: "Shehzad Ahmed_",
+                avatar: "meh.jpg",
                 bio: "I'm a Web Application Developer, MERN Stack Developer and Entrepreneur!",
                 dob: "2000-11-01",
                 email: "shaxad.here@gmail.com",
@@ -558,7 +558,20 @@
                 ]
 
             }
-            
+
+            $('#name').html(me['name'])
+            $('#avatar').attr('src', 'assets/img/' + me['avatar'])
+            $('#bio').html(me['bio'])
+            let phones = me['phone']
+            phones.forEach(phone => {
+                $('#phones').append(
+                    "<a href="+phone['link']+">"+phone['number']+"</a><br>"
+                )
+            });
+            $('#email').attr('href', 'mailto:'+me['email'])
+            $('#email').html(me['email'])
+            $('#address').html(me['address'])
+            $('#github-link').attr('href', me['github'])
             let projects = me['projects']
             projects.forEach(item => {
                 var stacks = item['stacks']
