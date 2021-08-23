@@ -151,25 +151,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 section__resume resume-list">
+                <div class="col-md-8 section__resume resume-list" id="education-container">
                     <h3 class="resume-list_title">education</h3>
-                    <div class="resume-list__block">
-                        <p class="resume-list__block-title">Aptech Computer Education</p>
-                        <p class="resume-list__block-date">2017 - 2020</p>
-                        <p>
-                            ACCPEE Software Engineering 3 Year Diploma
-                        </p>
-                    </div>
-                    <div class="resume-list__block">
-                        <p class="resume-list__block-title">Fazaia Intermediate College</p>
-                        <p class="resume-list__block-date">2017</p>
-                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-8 section__resume resume-list">
-                    <h3 class="resume-list_title">ACHIEVEMENTS</h3>
+                    <h3 class="resume-list_title" id="achievements">ACHIEVEMENTS</h3>
                     <div class="resume-list__block">
 
                         <p class="resume-list__block-title">ECompetencia Winner</p>
@@ -572,6 +561,15 @@
             $('#twitter-link').attr('href', me['links']['twitter'])
             $('#profile-desc').html(me['description'])
             $('#cv-document').attr('href', 'assets/'+me['resume'])
+            me['education'].forEach(item=> {
+                $('#education-container').append(
+                    "<div class='resume-list__block'>"+
+                    "<p class='resume-list__block-title'>"+item['institute']+"</p>"+
+                    "<p class='resume-list__block-date'>"+item['timeline']+"</p>"+
+                    "<p>"+item['qualification']+"</p>"+
+                    "</div>"
+                )
+            })
             let projects = me['projects']
             projects.forEach(item => {
                 var stacks = item['stacks']
@@ -599,9 +597,6 @@
                     if (mold == mnew) {
                         if (dold > dnew) 
                             diff--;
-                        
-
-
                     }
                 }
                 return diff;
