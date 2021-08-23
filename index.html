@@ -157,36 +157,14 @@
             </div>
 
             <div class="row">
-                <div class="col-md-8 section__resume resume-list">
-                    <h3 class="resume-list_title" id="achievements">ACHIEVEMENTS</h3>
-                    <div class="resume-list__block">
-
-                        <p class="resume-list__block-title">ECompetencia Winner</p>
-                        <p>
-                            Winner of web application competition ECompetencia held by Iqra University​.
-                        </p>
-                    </div>
-
-                    <div class="resume-list__block">
-                        <p class="resume-list__block-title">Techon Winner</p>
-                        <p>
-                            Winner of web application competition Techon held by Aptech.
-                        </p>
-                    </div>
+                <div class="col-md-8 section__resume resume-list" id="achievements">
+                    <h3 class="resume-list_title">ACHIEVEMENTS</h3>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-8 section__resume resume-list">
+                <div class="col-md-8 section__resume resume-list" id="activities">
                     <h3 class="resume-list_title">Extra Curricular Activities</h3>
-                    <div class="resume-list__block">
-
-                        <p class="resume-list__block-title">a poetry book</p>
-                        <p>
-                            <a href="https://www.wattpad.com/story/137318661-verses-of-life-and-death">Verses of Life and Death</a>
-                        </p>
-                    </div>
-
                 </div>
             </div>
 
@@ -425,7 +403,7 @@
                 ],
                 achievements: [
                     {
-                        titile: "ECompetencia Winner",
+                        title: "ECompetencia Winner",
                         description: "Winner of web application competition ECompetencia held by Iqra University​."
                     }, {
                         title: "Techon Winner",
@@ -567,6 +545,22 @@
                     "<p class='resume-list__block-title'>"+item['institute']+"</p>"+
                     "<p class='resume-list__block-date'>"+item['timeline']+"</p>"+
                     "<p>"+item['qualification']+"</p>"+
+                    "</div>"
+                )
+            })
+            me['achievements'].forEach(item=> {
+                $('#achievements').append(
+                    "<div class='resume-list__block'>"+
+                    "<p class='resume-list__block-title'>"+item['title']+"</p>"+
+                    "<p>"+item['description']+"</p>"+
+                    "</div>"
+                )
+            })
+            me['activities'].forEach(item=> {
+                $('#activities').append(
+                    "<div class='resume-list__block'>"+
+                    "<p class='resume-list__block-title'>"+item['description']+"</p>"+
+                    "<p><a href='"+item['link']+"'>"+item['title']+"</a></p>"+
                     "</div>"
                 )
             })
