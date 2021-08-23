@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Shehzad Ahmed - Portfolio</title>
+        <title>Shehzad Ahmed - Full Stack Web Developer</title>
         <link rel="icon" href="assets/img/favicon.ico"/>
         <link rel="stylesheet" href="assets/css/color.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
@@ -94,7 +94,7 @@
                                     <a href="" id="email"></a>
                                 </dd>
                                 <dt>Address:</dt>
-                                <dd id="address">Karachi, Pakistan</dd>
+                                <dd id="address"></dd>
                             </dl>
                         </div>
                         <p class="personal-profile__social" id="links">
@@ -119,13 +119,9 @@
             <div class="row">
                 <div class="col-md-10">
                     <h2 id="hello_header" class="section__title">Hi_</h2>
-                    <p class="section__description">
-                        I am a developer and i develop php and mern stack web applications, able to build any of these from the ground up - from concept, navigation,
-                                                                                                and layout to programming and logic building. Skilled at writing well-designed and developed, testable and efficient code using
-                                                                                                current best practices in Web Application Development. Fast learner, hard worker and team player who is proficient in
-                                                                                                an array of scripting languages and multimedia Web tools.
+                    <p class="section__description" id="profile-desc">
                     </p>
-                    <a href="assets/Shehzad Ahmed.pdf" download="resume" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download CV</a>
+                    <a id="cv-document" href="" download="resume" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download CV</a>
                 </div>
             </div>
         </section>
@@ -571,7 +567,11 @@
             $('#email').attr('href', 'mailto:'+me['email'])
             $('#email').html(me['email'])
             $('#address').html(me['address'])
-            $('#github-link').attr('href', me['github'])
+            $('#github-link').attr('href', me['links']['github'])
+            $('#linkedin-link').attr('href', me['links']['linkedin'])
+            $('#twitter-link').attr('href', me['links']['twitter'])
+            $('#profile-desc').html(me['description'])
+            $('#cv-document').attr('href', 'assets/'+me['resume'])
             let projects = me['projects']
             projects.forEach(item => {
                 var stacks = item['stacks']
