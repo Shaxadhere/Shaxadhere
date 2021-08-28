@@ -89,6 +89,7 @@ const shehzad = {
 <a href="https://github.com/Shaxadhere">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shaxadhere&theme=buefy&show_icons=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaxadhere&theme=dark"/>
 </a>
 
 <br/>
