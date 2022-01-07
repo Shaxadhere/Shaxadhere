@@ -1,10 +1,10 @@
 ## Hi there, I'm [Shehzad Ahmed][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
 
-### I'm a Web Application Developer, MERN Stack Developer and Entrepreneur!
-- 🔭 I’m currently working on PHP Projects!
-- 🌱 I’m currently learning MERN
+### I'm a MERN Stack Developer, PHP Developer, and Entrepreneur!
+- 🔭 I’m currently working on Mern Stack Projects!
+- 🌱 I’m currently learning GraphQL
 - 👯 I’m looking to collaborate with other developers to create awesome projects
-- 🥅 2021 Goals: Make more awesome web apps
+- 🥅 2022 Goals: Make more awesome products
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
@@ -16,17 +16,16 @@ const shehzad = {
     technologies: {
         frontEnd: {
             js: ["react", "jquery"],
-            css: ["material ui", "bootstrap"]
+            css: ["antd", "bootstrap", "tailwind"]
         },
         backEnd: {
             js: ["node", "express"],
             php: ["core"]
         },
         databases: ["mongo", "MySql", "mssql"],
-        mobileApp: ["iOS Apps"],
+        mobileApp: ["react-native", "iOS Apps"],
     },
     architecture: ["Progressive web applications", "Single page applications"],
-    currentProject: "I am developing Learning Management System for ARTT CSS Academy",
     funFact: "There are two ways to write error-free programs; only the third one works"
 };
 ```
@@ -52,7 +51,7 @@ const shehzad = {
 <img title="ReactJS" align="left" alt="React JS" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
 <img title="Javascript" align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <img title="PHP" align="left" alt="PHP" width="26px" src="https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png" />
-<img title="Flutter" align="left" alt="Flutter" width="26px" src="https://www.codemate.com/wp-content/uploads/2016/02/flutter-logo-round.png" />
+<img title="GraphQL" align="left" alt="GraphQL" width="26px" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png" />
 <img title="iOS" align="left" alt="iOS" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ios/ios.png" />
 <img title="C#" align="left" alt="C#" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" />
 <img title=".NET" align="left" alt=".NET" width="26px" src="https://raw.githubusercontent.com/github/explore/93d8a67084f94b2a444e510199a6e7622e5b09a3/topics/dotnet/dotnet.png" />
@@ -71,8 +70,6 @@ const shehzad = {
 
 <br />
 <br />
-
----
 
 ### Databases:
 
@@ -102,6 +99,6 @@ const shehzad = {
 
 
 [website]: https://shaxad.netlify.app/
-[twitter]: https://twitter.com/shexaadd
-[instagram]: https://instagram.com/shexadd
+[twitter]: https://twitter.com/shaxaddd
+[instagram]: https://instagram.com/shaxadd
 [coffee]: https://www.buymeacoffee.com/Shexadd
