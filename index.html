@@ -151,6 +151,12 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-8 section__resume resume-list" id="experience-container">
+                    <h3 class="resume-list_title">experience</h3>
+                </div>
+            </div>
+
+            <div class="row">
                 <div class="col-md-8 section__resume resume-list" id="education-container">
                     <h3 class="resume-list_title">education</h3>
                 </div>
@@ -173,19 +179,11 @@
                     <h3 class="progress-list__title">general skills</h3>
                 </div>
                 <div class="col-md-5 mr-auto">
-                    <div class="progress-list__skill">
-                        <p>
-                            <span class="progress-list__skill-title">PHP</span>
-                            <span class="progress-list__skill-value">80%</span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
+                    
                     <div class="progress-list__skill">
                         <p>
                             <span class="progress-list__skill-title">MERN Stack</span>
-                            <span class="progress-list__skill-value">30%</span>
+                            <span class="progress-list__skill-value">70%</span>
                         </p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
@@ -202,19 +200,29 @@
                     </div>
                     <div class="progress-list__skill">
                         <p>
-                            <span class="progress-list__skill-title">iOS Apps</span>
-                            <span class="progress-list__skill-value">50%</span>
+                            <span class="progress-list__skill-title">Node JS</span>
+                            <span class="progress-list__skill-value">70%</span>
                         </p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    <div class="progress-list__skill">
+                        <p>
+                            <span class="progress-list__skill-title">PHP</span>
+                            <span class="progress-list__skill-value">80%</span>
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="col-md-5 mr-auto">
                     <div class="progress-list__skill">
                         <p>
-                            <span class="progress-list__skill-title">C#</span>
-                            <span class="progress-list__skill-value">70%</span>
+                            <span class="progress-list__skill-title">MongoDB</span>
+                            <span class="progress-list__skill-value">50%</span>
                         </p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -222,8 +230,8 @@
                     </div>
                     <div class="progress-list__skill">
                         <p>
-                            <span class="progress-list__skill-title">MVC</span>
-                            <span class="progress-list__skill-value">60%</span>
+                            <span class="progress-list__skill-title">React JS</span>
+                            <span class="progress-list__skill-value">80%</span>
                         </p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
@@ -360,7 +368,7 @@
             const me = {
                 name: "Shehzad Ahmed_",
                 avatar: "meh.jpg",
-                bio: "I'm a Web Application Developer, MERN Stack Developer and Entrepreneur!",
+                bio: "I'm a  MERN Stack Developer, Web Application Developer and Entrepreneur!",
                 dob: "2000-11-01",
                 email: "shaxad.here@gmail.com",
                 phone: [
@@ -390,6 +398,28 @@
                 description: "I am a developer and i develop php and mern stack web applications, able to build any of these from the ground up - from concept, navigation, and layout to programming and logic building. Skilled at writing well-designed and developed, testable and efficient code using current best practices in Web Application Development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.",
                 resume: "Shehzad Ahmed.pdf",
                 studiesDescription: "I have studied from <i> <b>institutes</b> </i> but most importantly just like every other developer i have <i> <b>studied</b> </i> so much online and have won many <i> <b>development competetions</b> </i>.",
+                experience: [
+                    {
+                        company: "Finesols",
+                        timeline: "February  2022 - Present",
+                        designation: "MERN Stack Developer"
+                    },
+                    {
+                        company: "Kahoodigitals, Inc",
+                        timeline: "January  2022 - February 2022",
+                        designation: "MERN Stack Developer"
+                    },
+                    {
+                        company: "ARTT",
+                        timeline: "December  2020 - December 2021",
+                        designation: "Full Stack Web Developer"
+                    },
+                    {
+                        company: "Marsotech",
+                        timeline: "March  2019 - April 2020",
+                        designation: "ASP.NET MVC Developer"
+                    },
+                ],
                 education: [
                     {
                         institute: "Aptech Computer Education",
@@ -539,6 +569,15 @@
             $('#twitter-link').attr('href', me['links']['twitter'])
             $('#profile-desc').html(me['description'])
             $('#cv-document').attr('href', 'assets/'+me['resume'])
+            me['experience'].forEach(item=> {
+                $('#experience-container').append(
+                    "<div class='resume-list__block'>"+
+                    "<p class='resume-list__block-title'>"+item['company']+"</p>"+
+                    "<p class='resume-list__block-date'>"+item['timeline']+"</p>"+
+                    "<p>"+item['designation']+"</p>"+
+                    "</div>"
+                )
+            })
             me['education'].forEach(item=> {
                 $('#education-container').append(
                     "<div class='resume-list__block'>"+
