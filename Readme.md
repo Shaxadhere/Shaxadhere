@@ -11,19 +11,19 @@
 ```javascript
 const shehzad = {
     pronouns: "He" | "Him",
-    code: ["javascript", "node js" "php", "react js"],
+    code: ["javascript", "react js", "node js", "php"],
     askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
         frontEnd: {
             js: ["react", "jquery"],
-            css: ["antd", "bootstrap", "tailwind"]
+            css: ["antd", "mui", "chakra-ui", "bootstrap", "tailwind"]
         },
         backEnd: {
             js: ["node", "express"],
             php: ["core"]
         },
         databases: ["mongo", "MySql", "mssql"],
-        mobileApp: ["react-native", "iOS Apps"],
+        mobileApp: ["react-native"],
     },
     architecture: ["Progressive web applications", "Single page applications"],
     funFact: "There are two ways to write error-free programs; only the third one works"
@@ -80,25 +80,11 @@ const shehzad = {
 <br />
 <br />
 
----
-
-
 <a href="https://github.com/Shaxadhere">
   <img height="180em" style="max-width:45%;" src="https://github-readme-stats.vercel.app/api?username=Shaxadhere&theme=buefy&show_icons=true" />
   <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
 </a>
 
-<br/>
----
-
-### Buy Me a Coffee:
-
-[<img align="left" width="130px" src="https://github.com/egonelbre/gophers/blob/master/.thumb/animation/buy-morning-coffee-transparent.gif" />][coffee]
-
-
-
-
 [website]: https://shaxad.netlify.app/
 [twitter]: https://twitter.com/shaxaddd
 [instagram]: https://instagram.com/shaxadd
-[coffee]: https://www.buymeacoffee.com/Shexadd
