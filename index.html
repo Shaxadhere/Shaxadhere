@@ -163,6 +163,12 @@
             </div>
 
             <div class="row">
+                <div class="col-md-8 section__resume resume-list" id="certifications">
+                    <h3 class="resume-list_title">certifications</h3>
+                </div>
+            </div>
+
+            <div class="row">
                 <div class="col-md-8 section__resume resume-list" id="achievements">
                     <h3 class="resume-list_title">ACHIEVEMENTS</h3>
                 </div>
@@ -375,9 +381,6 @@
                     {
                         number: "+92 (303) 280-4856",
                         link: "tel:923032804856"
-                    }, {
-                        number: "+1 (365) 400-8480",
-                        link: "tel:13654008480"
                     },
                 ],
                 whatsapp: [
@@ -395,9 +398,9 @@
                     github: "https://github.com/Shaxadhere"
                 },
                 address: "Karachi, Pakistan",
-                description: "I am a developer and i develop php and mern stack web applications, able to build any of these from the ground up - from concept, navigation, and layout to programming and logic building. Skilled at writing well-designed and developed, testable and efficient code using current best practices in Web Application Development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.",
+                description: "I am a MERN Stack Developer able to build MERN Web Applications from the ground up - from concept, navigation, and layout to programming and logic building. Skilled at writing well-designed and developed, testable and efficient code using current best practices in Web Application Development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.",
                 resume: "Shehzad Ahmed.pdf",
-                studiesDescription: "I have studied from <i> <b>institutes</b> </i> but most importantly just like every other developer i have <i> <b>studied</b> </i> so much online and have won many <i> <b>development competetions</b> </i>.",
+                studiesDescription: "Developing web-based applications and progressive web apps, solving real life problems with the help of softwares. Passionated about developing life-changing good quality and resource saving softwares. Looking forward to work with the community and learn more and more everyday.",
                 experience: [
                     {
                         company: "Finesols",
@@ -425,11 +428,31 @@
                         institute: "Aptech Computer Education",
                         timeline: "2017 - 2020",
                         qualification: "ACCPEE Software Engineering 3 Year Diploma"
-                    }, {
+                    }, 
+                    {
+                        institute: "Govt. Degree Boys College",
+                        timeline: "2019",
+                        qualification: "Intermediate"
+                    },
+                    {
                         institute: "Fazaia Intermediate College",
                         timeline: "2017",
-                        qualification: ""
+                        qualification: "Matriculation"
                     }
+                ],
+                certifications: [
+                    {
+                        institute: "International Bebras Community",
+                        timeline: "2016",
+                        qualification: "International Challenge on Informatics and Computational Thinking",
+                        credentials:"16-021-05122-10-008-C"
+                    }, 
+                    {
+                        institute: "International Bebras Community",
+                        timeline: "2015",
+                        qualification: "Infomatics Contest",
+                        credentials:"15-021-05122-9-005-C"
+                    },
                 ],
                 achievements: [
                     {
@@ -587,6 +610,16 @@
                     "<p class='resume-list__block-title'>"+item['institute']+"</p>"+
                     "<p class='resume-list__block-date'>"+item['timeline']+"</p>"+
                     "<p>"+item['qualification']+"</p>"+
+                    "</div>"
+                )
+            })
+            me['certifications'].forEach(item=> {
+                $('#experience-container').append(
+                    "<div class='resume-list__block'>"+
+                    "<p class='resume-list__block-title'>"+item['institute']+"</p>"+
+                    "<p class='resume-list__block-date'>"+item['timeline']+"</p>"+
+                    "<p>"+item['qualification']+"</p>"+
+                    "<p>Credentials: "+item['credentials']+"</p>"+
                     "</div>"
                 )
             })
