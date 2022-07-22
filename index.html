@@ -234,135 +234,11 @@
         </div>
       </div>
 
-      <div class="row section__resume progress-list js-progress-list">
+      <div class="row section__resume progress-list js-progress-list" id="skills">
         <div class="col-md-12">
           <h3 class="progress-list__title">general skills</h3>
         </div>
-        <div class="col-md-5 mr-auto">
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">MERN Stack</span>
-              <span class="progress-list__skill-value">70%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">JavaScript</span>
-              <span class="progress-list__skill-value">70%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">Node JS</span>
-              <span class="progress-list__skill-value">70%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="70"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">PHP</span>
-              <span class="progress-list__skill-value">80%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-5 mr-auto">
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">MongoDB</span>
-              <span class="progress-list__skill-value">50%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="50"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">React JS</span>
-              <span class="progress-list__skill-value">80%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">git</span>
-              <span class="progress-list__skill-value">90%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="90"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-          <div class="progress-list__skill">
-            <p>
-              <span class="progress-list__skill-title">Jquery</span>
-              <span class="progress-list__skill-value">80%</span>
-            </p>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </section>
     <!--Resume-->
@@ -617,6 +493,48 @@
           },
         ],
         githubActivity: "https://ghchart.rshah.org/shaxadhere",
+        skills: [
+          {
+            name:"React JS",
+            percentage:"80"
+          },
+          {
+            name:"Next JS",
+            percentage:"80"
+          },
+          {
+            name:"Node JS",
+            percentage:"70"
+          },
+          {
+            name:"MongoDB",
+            percentage:"70"
+          },
+          {
+            name:"Express JS",
+            percentage:"70"
+          },
+          {
+            name:"PHP",
+            percentage:"90"
+          },
+          {
+            name:"MySQL",
+            percentage:"80"
+          },
+          {
+            name:"Git",
+            percentage:"90"
+          },
+          {
+            name:"JQuery",
+            percentage:"80"
+          },
+          {
+            name:"Javascript",
+            percentage:"70"
+          },
+        ],
         projects: [
           {
             image:
@@ -863,6 +781,36 @@
         );
       });
 
+      const skills = me['skills']
+      skills.forEach((item, index) => {
+        const col = "<div class='col-md-5 mr-auto'>"
+        const skill = "<div class='progress-list__skill'>"+
+            "<p>"+
+              "<span class='progress-list__skill-title'>MERN Stack</span>"+
+              "<span class='progress-list__skill-value'>70%</span>"+
+           "</p>"+
+            "<div class='progress'>"+
+              "<div"+
+               "class='progress-bar'"+
+               "role='progressbar'"+
+               "aria-valuenow='70'"+
+               "aria-valuemin='0'"+
+               "aria-valuemax='100'"+
+             "></div>"+
+           "</div>"+
+         "</div>"
+         if(index===0 ||index==skills.length/2)
+         {
+          $('#skills').append(
+            "<div class='col-md-5 mr-auto'>"+
+              skill+
+            "</div>"
+          )
+         }
+         else {
+           $('#skills').append(skill)
+          }
+      })
       const ageDifMs = Date.now() - new Date("2000-11-01").getTime();
       const ageDate = new Date(ageDifMs);
       const age = Math.abs(ageDate.getUTCFullYear() - 1970);
