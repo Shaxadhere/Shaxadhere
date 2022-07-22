@@ -786,14 +786,14 @@
         const col = "<div class='col-md-5 mr-auto'>"
         const skill = "<div class='progress-list__skill'>"+
             "<p>"+
-              "<span class='progress-list__skill-title'>MERN Stack</span>"+
-              "<span class='progress-list__skill-value'>70%</span>"+
+              "<span class='progress-list__skill-title'>"+item.name+"</span>"+
+              "<span class='progress-list__skill-value'>"+item.percentage+"%</span>"+
            "</p>"+
             "<div class='progress'>"+
               "<div"+
                "class='progress-bar'"+
                "role='progressbar'"+
-               "aria-valuenow='70'"+
+               "aria-valuenow='"+item.percentage+"'"+
                "aria-valuemin='0'"+
                "aria-valuemax='100'"+
              "></div>"+
