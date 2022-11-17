@@ -64,7 +64,65 @@
         border-color: unset !important;
         border-image: unset !important;
       }
+      #eyes,
+      #eyes img {
+        position: absolute;
+      }
+      .eye-first {
+        width: 25px;
+        position: absolute;
+        right: 83px;
+        top: 438px;
+      }
+      .eye-second {
+        width: 22px;
+        position: absolute;
+        right: 62px;
+        top: 442px;
+      }
+      #anchor {
+        width: 150px;
+        position: absolute;
+        right: 10px;
+        top: 420px;
+      }
+      @media only screen and (max-width: 320px) {
+        #anchor {
+          top: 495px;
+        }
+        .eye-first {
+          top: 438px;
+        }
+        .eye-second {
+          top: 442px;
+        }
+      }
+
+      @media only screen and (max-width: 375px) {
+        #anchor {
+          top: 495px;
+        }
+        .eye-first {
+          top: 510px;
+        }
+        .eye-second {
+          top: 515px;
+        }
+      }
+
+      @media only screen and (min-width: 1200px) {
+        #anchor {
+          top: 400px;
+        }
+        .eye-first {
+          top: 415px;
+        }
+        .eye-second {
+          top: 421px;
+        }
+      }
     </style>
+    <script src="./assets/js/eyeball.js"></script>
   </head>
   <body>
     <!--Main menu-->
@@ -153,6 +211,10 @@
           </div>
         </div>
       </div>
+      <img id="anchor" src="./assets/img/surfing-js-1.png" />
+
+      <img class="eye eye-first" src="./assets/img/eyeball.png" />
+      <img class="eye eye-second" src="./assets/img/eyeball.png" />
     </header>
     <!--Header-->
 
@@ -644,44 +706,44 @@
         githubActivity: "https://ghchart.rshah.org/shaxadhere",
         skills: [
           {
-            name:"React JS",
-            percentage:"80"
+            name: "React JS",
+            percentage: "80",
           },
           {
-            name:"Next JS",
-            percentage:"80"
+            name: "Next JS",
+            percentage: "80",
           },
           {
-            name:"Node JS",
-            percentage:"70"
+            name: "Node JS",
+            percentage: "70",
           },
           {
-            name:"MongoDB",
-            percentage:"70"
+            name: "MongoDB",
+            percentage: "70",
           },
           {
-            name:"Express JS",
-            percentage:"70"
+            name: "Express JS",
+            percentage: "70",
           },
           {
-            name:"PHP",
-            percentage:"90"
+            name: "PHP",
+            percentage: "90",
           },
           {
-            name:"MySQL",
-            percentage:"80"
+            name: "MySQL",
+            percentage: "80",
           },
           {
-            name:"Git",
-            percentage:"90"
+            name: "Git",
+            percentage: "90",
           },
           {
-            name:"JQuery",
-            percentage:"80"
+            name: "JQuery",
+            percentage: "80",
           },
           {
-            name:"Javascript",
-            percentage:"70"
+            name: "Javascript",
+            percentage: "70",
           },
         ],
         projects: [
@@ -707,12 +769,17 @@
           },
           {
             image: "ptax.png",
-            title:
-              "PTax - a mern stack web application",
+            title: "PTax - a mern stack web application",
             description:
               "a web application based on mern stack, a search engine for national taxation case records since 1947",
             link: "https://staging--pak-tax.netlify.app/",
-            stacks: ["React JS", "Node JS", "Azure Blob Storage", "Chakra UI", "MongoDB"],
+            stacks: [
+              "React JS",
+              "Node JS",
+              "Azure Blob Storage",
+              "Chakra UI",
+              "MongoDB",
+            ],
             type: "websites",
           },
           {
@@ -726,12 +793,18 @@
           },
           {
             image: "eartt.png",
-            title:
-              "EARTT - an accounting and information management system",
+            title: "EARTT - an accounting and information management system",
             description:
               "a web application based on php, developed from scratch to manage fee collection, fee management, expense management, salary management, student information management, student queries management etc.",
             link: "https://artt.edu.pk/eartt",
-            stacks: ["PHP", "MySQL", "PHP Rapid", "Javascript", "Jquery", "Ajax"],
+            stacks: [
+              "PHP",
+              "MySQL",
+              "PHP Rapid",
+              "Javascript",
+              "Jquery",
+              "Ajax",
+            ],
             type: "websites",
           },
           {
@@ -767,7 +840,15 @@
             description:
               "Developed on asp.net mvc c#, a discount coupons website for an organization which sells coupons.",
             link: "https://www.grabthecoupons.com",
-            stacks: ["C#", "MVC", "JavaScript", "MS SQL Server", "ASP.NET", "Jquery", "Ajax"],
+            stacks: [
+              "C#",
+              "MVC",
+              "JavaScript",
+              "MS SQL Server",
+              "ASP.NET",
+              "Jquery",
+              "Ajax",
+            ],
             type: "websites",
           },
           {
@@ -929,7 +1010,7 @@
             "</div>"
         );
       });
-     
+
       const ageDifMs = Date.now() - new Date("2000-11-01").getTime();
       const ageDate = new Date(ageDifMs);
       const age = Math.abs(ageDate.getUTCFullYear() - 1970);
