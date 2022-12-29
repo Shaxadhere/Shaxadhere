@@ -2,7 +2,7 @@
 
 ### I'm a Software Engineer and Entrepreneur!
 - Currently working as a Software Engineer at Koderlabs
-- In my spare time, assist startup in product development and work on my own product ideas
+- In my spare time, I assist startup in product development and work on my own product ideas
 - I specialize in MERN Stack projects, but also have proficient skills in PHP and MySQL.
 
 ### [Checkout my gists][gist]
