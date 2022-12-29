@@ -1,10 +1,9 @@
 ## Hi there, I'm [Shehzad Ahmed][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
 
-### I'm a MERN Stack Developer, PHP Developer, and Entrepreneur!
-- 🔭 I’m currently working on Mern Stack Projects!
-- 🌱 I’m currently learning GraphQL
-- 👯 I’m looking to collaborate with other developers to create awesome projects
-- 🥅 2022 Goals: Make more awesome products
+### I'm a Software Engineer and Entrepreneur!
+- Currently working as a Software Engineer at Koderlabs
+- In my spare time, assist startup in product development and work on my own product ideas
+- I specialize in MERN Stack projects, but also have proficient skills in PHP and MySQL.
 
 ### [Checkout my gists][gist]
 
@@ -27,7 +26,7 @@ const shehzad = {
         databases: ["mongo", "MySql", "mssql"],
         mobileApp: ["react-native"],
     },
-    architecture: ["Progressive web applications", "Single page applications"],
+    architecture: ["Progressive web applications", "Single page applications", "React Native Mobile Applications"],
     funFact: "There are two ways to write error-free programs; only the third one works"
 };
 ```
@@ -68,7 +67,6 @@ const shehzad = {
 ### Tools:
 
 <img title="Visual Studio Code" align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-<img title="Android Studio" align="left" alt="Visual Studio Code" width="26px" src="https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png" />
 
 <br />
 <br />
