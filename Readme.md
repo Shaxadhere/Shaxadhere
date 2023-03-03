@@ -85,7 +85,7 @@ const shehzad = {
   <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
 </a>
 
-[website]: https://shehzadahmed.tech/
+[website]: https://shaxad.netlify.app/
 [twitter]: https://twitter.com/shaxaddd
 [instagram]: https://instagram.com/shaxadd
 [gist]: https://gist.github.com/shaxadhere
