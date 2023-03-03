@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import MeImage from "../../images/me.jpg";
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -161,10 +162,9 @@ const About = () => {
           <div className="wrapper">
             <img
               className="img"
-              src="/me.jpg"
+              src={MeImage}
               width={500}
               quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />
           </div>
