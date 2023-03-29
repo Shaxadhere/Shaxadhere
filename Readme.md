@@ -12,11 +12,11 @@
 ```javascript
 const shehzad = {
     pronouns: "He" | "Him",
-    code: ["javascript", "react js", "node js", "php"],
+    code: ["javascript", "react js", 'next.js', "node js", "php"],
     askMeAbout: ["web dev", "tech", "app dev"],
     technologies: {
         frontEnd: {
-            js: ["react", "jquery"],
+            js: ["react", "next.js", "jquery"],
             css: ["antd", "mui", "chakra-ui", "bootstrap", "tailwind"]
         },
         backEnd: {
@@ -85,7 +85,7 @@ const shehzad = {
   <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
 </a>
 
-[website]: https://shaxad.netlify.app/
+[website]: https://shehzadahmed.tech
 [twitter]: https://twitter.com/shaxaddd
 [instagram]: https://instagram.com/shaxadd
 [gist]: https://gist.github.com/shaxadhere
