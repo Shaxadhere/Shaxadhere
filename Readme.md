@@ -7,7 +7,7 @@
 
 ### [Checkout my gists][gist]
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+### About Me
 
 ```javascript
 const shehzad = {
@@ -31,20 +31,12 @@ const shehzad = {
 };
 ```
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
-
 ---
 ### Connect with me:
 <a title="Github" href="https://github.com/shaxadhere"><img src="https://img.shields.io/github/followers/shaxadhere.svg?label=GitHub&style=social" alt="GitHub"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/shaxadhere/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 
-[<img align="left" alt="Shexadd | Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter]
-[<img align="left" alt="Shexadd | Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />][instagram]
-<br />
-<br />
-<br />
-![](https://github.com/egonelbre/gophers/blob/master/.thumb/animation/2bit-sprite/demo.gif)
-<br />
+<p><a href="https://www.twitter.com/shaxaddd"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=25></a> <a href="https://www.linkedin.com/in/shaxadhere"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=25></a> <a href="https://www.instagram.com/shaxadd/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=25></a> <a href="https://youtube.com/@shaxadd"><img src="https://img.shields.io/badge/youtube-%2312100E.svg?&style=for-the-badge&logo=youtube&logoColor=white" height=25></a> <a href="https://shaxadd.medium.com/"><img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=25></a> </p>
 
 ### Languages:
 
