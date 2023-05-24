@@ -5,7 +5,10 @@
 - In my spare time, I assist startup in product development and work on my own product ideas
 - I specialize in MERN Stack projects, but also have proficient skills in PHP and MySQL.
 
-### [Checkout my gists][gist]
+<p><a href="https://www.upwork.com/freelancers/shehzadahmed43"><img src="https://img.shields.io/badge/Hire%20me%20for%20your%20next%20project%20on%20upwork-%108a00.svg?&style=for-the-badge&logo=upwork&logoColor=white" height=25></a>
+
+
+### Or you may want to [checkout my gists][gist]
 
 ### About Me
 
@@ -35,6 +38,7 @@ const shehzad = {
 ### Connect with me:
 <a title="Github" href="https://github.com/shaxadhere"><img src="https://img.shields.io/github/followers/shaxadhere.svg?label=GitHub&style=social" alt="GitHub"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/shaxadhere/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+
 
 <p><a href="https://www.twitter.com/shaxaddd"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=25></a> <a href="https://www.linkedin.com/in/shaxadhere"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=25></a> <a href="https://www.instagram.com/shaxadd/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=25></a> <a href="https://youtube.com/@shaxadd"><img src="https://img.shields.io/badge/youtube-%2312100E.svg?&style=for-the-badge&logo=youtube&logoColor=white" height=25></a> <a href="https://shaxadd.medium.com/"><img src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" height=25></a> </p>
 
