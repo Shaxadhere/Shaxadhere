@@ -9,10 +9,6 @@ I assist startup in product development and work on my own product, I specialize
   <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
 </a>
 
-<a href="https://github.com/Shaxadhere">
-  <img  src="https://spotify-github-profile.vercel.app/api/view.svg?uid=j3et0r3h2zo6g1kmjlzc18put&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=j3et0r3h2zo6g1kmjlzc18put&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)" />
-</a>
-
 [website]: https://shehzadahmed.tech
 [twitter]: https://twitter.com/shaxaddd
 [instagram]: https://instagram.com/shaxadd
