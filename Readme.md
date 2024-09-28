@@ -9,7 +9,7 @@ I assist startup in product development and work on my own product, I specialize
   <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
 </a>
 
-[website]: https://shehzadahmed.vercel.app/
+[website]: https://shehzadahmed.me/
 [twitter]: https://twitter.com/shaxaddd
 [instagram]: https://instagram.com/shaxadd
 [gist]: https://gist.github.com/shaxadhere
