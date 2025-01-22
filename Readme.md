@@ -11,7 +11,7 @@ I assist startup in product development and work on my own product, I specialize
 
 <p align="center">
   Visitor count<br>
-  <img src="https://profile-counter.glitch.me/_blocage/count.svg" />
+  <img src="https://profile-counter.glitch.me/shaxadhere/count.svg" />
 </p>
 
 [website]: https://shehzadahmed.me/
