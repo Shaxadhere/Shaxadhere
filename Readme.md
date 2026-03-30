@@ -1,5 +1,5 @@
 ## Hello, I'm [Shehzad Ahmed][website]
-I assist startup in product development and work on my own product, I specialize in MERN Stack projects, but also have proficient skills in PHP and MySQL.
+I build apps with good experiences and scalablity. React Expert, Good in Node.js, Nest.js and a lot of other javascript libraries and frameworks. 
 
 
 ### Connect with me:
